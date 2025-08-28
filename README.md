@@ -12,37 +12,36 @@ Este relatório apresenta o processo de implementação de ferramentas na empres
 
 ## Descrição do Projeto
 
-O projeto de implementação foi dividido em 3 etapas, cada uma com seus objetivos específicos:
+`O projeto de implementação foi dividido em 3 etapas, cada uma com seus objetivos específicos:`
 
 ### Etapa 1:
-```
-- Nome da ferramenta: Amazon S3 (Simple Storage Service)
 
-- Foco da ferramenta: Armazenamento de dados com alta durabilidade e baixo custo.
+**Nome da ferramenta:** Amazon S3 (Simple Storage Service)
 
-- Descrição de caso de uso:
+**Foco da ferramenta:** Armazenamento de dados com alta durabilidade e baixo custo.
+
+**Descrição de caso de uso:**
 Atualmente, a empresa armazena dados em servidores locais, com alto custo de manutenção e risco de perda. Com o Amazon S3, todos os documentos administrativos, resultados laboratoriais e arquivos de pesquisa poderão ser migrados para a nuvem, garantindo durabilidade de 99,99%, escalabilidade automática e custo proporcional ao uso. Além disso, será possível utilizar políticas de arquivamento no S3 Glacier para reduzir ainda mais os custos com dados pouco acessados.
-```
 
 ### Etapa 2:
-```
-Nome da ferramenta: Amazon RDS (Relational Database Service)
 
-Foco da ferramenta: Banco de dados gerenciado e otimizado.
+**Nome da ferramenta:** Amazon RDS (Relational Database Service)
 
-Descrição de caso de uso:
+**Foco da ferramenta:** Banco de dados gerenciado e otimizado.
+
+**Descrição de caso de uso:**
 A empresa utiliza servidores próprios para gerenciar bancos de dados internos, o que gera custos elevados com licenciamento, energia e administração. Com o Amazon RDS, a PharmaVida poderá migrar seus bancos de dados (como estoque, vendas e cadastros de clientes) para um ambiente totalmente gerenciado, sem necessidade de manutenção de hardware ou backup manual. O serviço traz alta disponibilidade, segurança e escalabilidade automática, permitindo pagar apenas pelo que é consumido.
-```
+
 
 ### Etapa 3:
-```
-Nome da ferramenta: Amazon EC2 (Elastic Compute Cloud) com Auto Scaling
 
-Foco da ferramenta: Hospedagem de sistemas corporativos com escalabilidade elástica.
+**Nome da ferramenta:** Amazon EC2 (Elastic Compute Cloud) com Auto Scaling
+
+**Foco da ferramenta:** Hospedagem de sistemas corporativos com escalabilidade elástica.
 
 Descrição de caso de uso:
 A empresa possui aplicações internas, como ERP e sistemas de controle de produção, que hoje funcionam em servidores físicos. Com o Amazon EC2, esses sistemas poderão ser migrados para máquinas virtuais na nuvem, com capacidade de ajuste automático de recursos através do Auto Scaling. Assim, nos horários de pico, a infraestrutura será expandida automaticamente, e em horários de baixa demanda, será reduzida — diminuindo os custos operacionais e garantindo desempenho ideal.
-```
+
 
 ## Conclusão
 
